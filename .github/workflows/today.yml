@@ -3,11 +3,11 @@ on:
   workflow_dispatch: 
 jobs:
   my_job:
-  name: run to ubnatu
-  runs-on: ubuntu-latest
-  steps:
-  - name: linux
-    run: |
+    name: run to ubnatu
+    runs-on: ubuntu-latest
+    steps:
+    - name: linux
+      run: |
          whoami
          pwd
          ls
